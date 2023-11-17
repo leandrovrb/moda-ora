@@ -1,0 +1,101 @@
+body{
+    font-family: roboto;
+    margin: 40px;
+}
+
+header{
+    background: #162028;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.topo{
+    margin-left: 10%;
+    color: white;
+    font-family: Viaoda Libre;
+}
+
+.links{
+    display: flex;
+    color: #425564;
+    list-style: none;
+    margin-right: 5%;    
+    font-size: 20px;
+    gap: 50px;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #425564;
+}
+
+.links li a:hover{
+    color: white;
+}
+
+.imagem img{
+    width: 100%;
+}
+
+.portfolio h1{
+    padding-top: 100px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.portfolio p{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.galeria{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto{
+    text-align: center;
+}
+
+.sobre-nos{
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-color: #003d52;
+    background-position: right bottom;
+}
+
+.sobre-nos h1{
+    color: white;
+    font-family: Viaoda Libre;
+    padding-left: 50px;
+    padding-top: 100px;
+    font-weight: normal;
+}
+
+.sobre-nos p{
+    color: white;
+    padding: 50px 0 100px 50px;
+    width: 50%;
+}
+
+footer{
+    background-color: #0b171f;
+    color: #6f8597;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin-top: -20px;
+}
